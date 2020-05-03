@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+url: https://u17194907425.github.io/
+
+plugins:
+  - jekyll-sitemap
