@@ -4,7 +4,6 @@ The sensor simply returns voltage in case there's water on it
 
 {% raw %}
 ```yaml
-
 sensor:
   - platform: adc
     pin: GPIO34
