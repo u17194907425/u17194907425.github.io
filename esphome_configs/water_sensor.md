@@ -1,5 +1,6 @@
 # ESPHome and Water Sensor
 
+{% raw %}
 ```yaml
 
 sensor:
@@ -13,3 +14,5 @@ sensor:
       - or:
         - throttle: 60s # This one is to pass 0 value and not sit on ~0.07
         - delta: 0.2    # Do not spam with updates in case they are small
+```
+{% endraw %}
