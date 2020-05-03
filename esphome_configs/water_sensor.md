@@ -1,5 +1,7 @@
 # ESPHome and Water Sensor
 
+The sensor simply returns voltage in case there's water on it
+
 {% raw %}
 ```yaml
 
